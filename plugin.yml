@@ -1,0 +1,12 @@
+name: Taxi
+version: 0.1
+main: me.FortiBrine.Taxi.main.Main
+
+commands:
+  taxi:
+    description: "Управление плагином Taxi"
+
+permissions:
+  taxi.work:
+    description: "Права для таксистов"
+    default: op

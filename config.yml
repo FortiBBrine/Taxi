@@ -1,0 +1,29 @@
+
+message:
+  usage:
+   - "Туториал по роботе с командами /taxi"
+   - " - /taxi call [Локация] - вызвать такси"
+   - " - /taxi list - открыть меню такси"
+   - " - /taxi price [Никнейм игрока] [Цена]"
+   - " - /taxi yes - принять"
+   - " - /taxi no - отклонить"
+  call: "Вы успешно вызвали такси."
+  alreadyCall: "Вы уже вызвали такси."
+  title: "Яндекс Такси"
+  noOnline: "§4Ошибка: §fИгрок не онлайн"
+  distance: "§4Ошибка: §fИгрок слишком далеко"
+  noPermissions: "§4Ошибка: §fВы не таксист."
+  numberFormatException: "§4Ошибка: §fВведите число." 
+  sendPrice: "Вы отправили запрос игроку: %player."
+  sendPricePlayer: "Вам отправил запрос игрок: %player"
+  noMoney: "§4Ошибка: §fДенег не хватает"
+  noRequest: "Нет запроса."
+  payRequest: "Вы оплатили запрос"
+  payRequestPlayer: "Игрок оплатил ваш запрос"
+  declineRequest: "Вы отказались оплатить запрос"
+  declineRequestPlayer: "Игрок отказался платить запрос"
+  item:
+   title: "%player"
+   lore:
+    - "Игрок: %player"
+    - "Локация: %location"
